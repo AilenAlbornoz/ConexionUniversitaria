@@ -1,0 +1,133 @@
+body {
+    background-color: #ffff; 
+    font-family: cursive;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    color: cadetblue;
+    font-family: cursive; 
+    font-size: 65px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    background-color: #369e7b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #2dc0ac; /* Color de fondo al pasar el ratón */
+}
+
+.carousel {
+    position: relative;
+    width: 500px; /* Ajusta el ancho según tus necesidades */
+    height: 300px; /* Ajusta el alto según tus necesidades */
+    overflow: hidden;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+  }
+  
+  .carousel-item {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #somos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  
+  #anterior, #siguiente {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.6s ease;
+  }
+
+  #anterior:hover, #siguiente:hover {
+    background-color: #3e8e41;
+  }
+  
+  #anterior {
+    margin-right: 20px;
+  }
+
+nav {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: #369e7b;
+    font-weight: bold;
+}
+
+.link-button:hover {
+    color: #2dc0ac; /* Color al pasar el ratón */
+}
+
+/* Logo */
+img {
+    max-width: auto; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio debajo del logo */
+}

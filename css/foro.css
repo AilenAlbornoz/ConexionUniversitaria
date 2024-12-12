@@ -1,0 +1,136 @@
+/* Logo */
+img {
+    max-width: auto; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio debajo del logo */
+}
+
+.contenedor-logo {
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenedor-logo img {
+    max-width: 600px; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+.foro {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .titulo-foro {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contenedor-foro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .publicacion {
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .titulo-publicacion {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contenido-publicacion {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .boton-comentar {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-comentar:hover {
+    background-color: #3e8e41;
+  }
+  
+  .comentarios {
+    margin-top: 20px;
+  }
+  
+  .comentario {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .texto-comentario {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .boton-responder {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-responder:hover {
+    background-color: #3e8e41;
+  }
+  
+  #boton-crear-publicacion {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .link-button {
+    text-decoration: none;
+    color: #369e7b;
+    font-weight: bold;
+    margin: 0 10px;
+}
+  

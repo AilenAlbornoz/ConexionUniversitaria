@@ -1,0 +1,112 @@
+/* Logo */
+img {
+    max-width: auto; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio debajo del logo */
+}
+
+.contenedor-logo {
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenedor-logo img {
+    max-width: 600px; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+body {
+    background-color: #f0f4f8; /* Color de fondo suave */
+    font-family: 'Arial', sans-serif;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px; /* Aumentar el ancho para más espacio */
+    margin: auto;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #369e7b; /* Color de borde al enfocar */
+}
+
+button {
+    background-color: #369e7b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #2dc0ac; /* Color de fondo al pasar el ratón */
+}
+
+/* Logo */
+img {
+    max-width: 150px; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio debajo del logo */
+}
+
+/* Estilo para el contenedor de notas */
+#notas {
+    margin-top: 20px; 
+    padding: 20px;
+    border: 1px solid #4CAF50; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+}
+
+/* Estilo para el área de texto */
+#fortaleza {
+    width: 100%; 
+    padding: 7px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+/* Estilo para el botón */
+#addNoteButton {
+    float: right;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #30b47d;
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addNoteButton:hover {
+    background-color: #2dc0ac;
+}
+
+.link-button {
+    text-decoration: none;
+    color: #369e7b;
+    font-weight: bold;
+    margin: 0 10px;
+}

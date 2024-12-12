@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/foro.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet"/>
+    <title>Foro</title>
+</head>
+<body>
+  <!-- Menú desplegable -->
+    <div class="menu-desplegable">
+      <button class="boton-menu">
+      <i class="fas fa-cog" aria-hidden="true"></i>
+      </button>
+      <ul class="opciones-menu">
+      <li>
+          <a href="mi-perfil.html" class="opcion-menu">Editar perfil</a>
+      </li>
+      <li>
+          <a href="#" class="opcion-menu">Poner modo anónimo</a>
+      </li>
+      <li>
+          <a href="#" class="opcion-menu">Cerrar sesión</a>
+      </li>
+      </ul>
+  </div>
+  
+    <div class="contenedor-logo">
+        <img src="img/ConexionUniv.jpeg" alt="Logo Conexion Universitaria" class="img-fluid">
+    </div>
+    <div class="foro">
+      <h1 class="titulo-foro">Foro - Espacio compartido</h1>
+      <div class="contenedor-foro">
+        <div class="publicacion">
+          <h2 class="titulo-publicacion">Título de la publicación</h2>
+          <p class="contenido-publicacion">Contenido de la publicación</p>
+          <button class="boton-comentar">Comentar</button>
+          <div class="comentarios">
+            <div class="comentario">
+              <p class="texto-comentario">Comentario 1</p>
+              <button class="boton-responder">Responder</button>
+            </div>
+            <div class="comentario">
+              <p class="texto-comentario">Comentario 2</p>
+              <button class="boton-responder">Responder</button>
+            </div>
+          </div>
+        </div>
+        <div id="publicaciones"></div>
+        <div class="publicacion">
+          <h2 class="titulo-publicacion">Título de la publicación 2</h2>
+          <p class="contenido-publicacion">Contenido de la publicación 2</p>
+          <button class="boton-comentar">Comentar</button>
+          <div class="comentarios">
+            <div class="comentario">
+              <p class="texto-comentario">Comentario 3</p>
+              <button class="boton-responder">Responder</button>
+            </div>
+            <div class="comentario">
+              <p class="texto-comentario">Comentario 4</p>
+              <button class="boton-responder">Responder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <form id="formulario-publicacion">
+          <label for="titulo-publicacion">Título:</label>
+          <input type="text" id="titulo-publicacion" name="titulo-publicacion"><br><br>
+          <label for="contenido-publicacion">Contenido:</label>
+          <textarea id="contenido-publicacion" name="contenido-publicacion"></textarea><br><br>
+          <button id="boton-crear-publicacion">Crear publicación</button>
+      </form>
+    </div>
+
+    
+  
+    <nav>
+      <ul class="nav-links">
+          <a href="index.html" class="link-button">Volver al Inicio </a>
+      </ul>
+  </nav>
+
+</body>
+
+    <script src="Foro.js"></script>
+    <script src="js/menu.js"></script>
+</html>
+
+

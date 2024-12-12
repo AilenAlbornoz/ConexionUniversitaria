@@ -1,0 +1,92 @@
+/* Logo */
+img {
+    max-width: auto; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio debajo del logo */
+}
+
+.contenedor-logo {
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenedor-logo img {
+    max-width: 600px; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+.noticias {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .noticias ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .noticias li {
+    margin-bottom: 20px;
+  }
+  
+  .noticias h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .noticias p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .noticias button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .noticias button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .noticias form {
+    margin-top: 20px;
+  }
+  
+  .noticias label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .noticias input, .noticias textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .noticias textarea {
+    height: 100px;
+  }
+
+  .link-button {
+    text-decoration: none;
+    color: #369e7b;
+    font-weight: bold;
+    margin: 0 10px;
+  }

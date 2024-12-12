@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/noticias.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet"/>
+    <title>Noticias</title>
+</head>
+<body>
+  <!-- Menú desplegable -->
+  <div class="menu-desplegable">
+    <button class="boton-menu">
+    <i class="fas fa-cog" aria-hidden="true"></i>
+    </button>
+    <ul class="opciones-menu">
+    <li>
+        <a href="mi-perfil.html" class="opcion-menu">Editar perfil</a>
+    </li>
+    <li>
+        <a href="#" class="opcion-menu">Poner modo anónimo</a>
+    </li>
+    <li>
+        <a href="#" class="opcion-menu">Cerrar sesión</a>
+    </li>
+    </ul>
+</div>
+    <div class="contenedor-logo">
+        <img src="img/ConexionUniv.jpeg" alt="Logo Conexion Universitaria" class="img-fluid">
+    </div>
+<div class="noticias">
+    <h1>Noticias</h1>
+    <ul>
+      <!-- Lista de noticias -->
+      <li v-for="noticia in noticias" :key="noticia.id">
+        <h2>{{ noticia.titulo }}</h2>
+        <p>{{ noticia.contenido }}</p>
+        <button @click="editarNoticia(noticia.id)">Editar</button>
+        <button @click="eliminarNoticia(noticia.id)">Eliminar</button>
+      </li>
+    </ul>
+    <!-- Formulario para crear noticias -->
+    <form @submit.prevent="crearNoticia">
+      <label for="titulo">Título:</label>
+      <input type="text" id="titulo" v-model="titulo">
+      <br>
+      <label for="contenido">Contenido:</label>
+      <textarea id="contenido" v-model="contenido"></textarea>
+      <br>
+      <button type="submit">Crear noticia</button>
+    </form>
+    <!-- Formulario para editar noticias -->
+    <form @submit.prevent="actualizarNoticia" v-if="editar">
+      <label for="titulo-editar">Título:</label>
+      <input type="text" id="titulo-editar" v-model="tituloEditar">
+      <br>
+      <label for="contenido-editar">Contenido:</label>
+      <textarea id="contenido-editar" v-model="contenidoEditar"></textarea>
+      <br>
+      <button type="submit">Actualizar noticia</button>
+    </form>
+  </div>
+
+  
+
+    <nav>
+        <ul class="nav-links">
+            <a href="index.html" class="link-button">Volver al Inicio </a>
+        </ul>
+    </nav>
+
+  <script src="noticias.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>
+    

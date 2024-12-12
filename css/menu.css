@@ -1,0 +1,66 @@
+/* Logo */
+img {
+    max-width: auto; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio debajo del logo */
+}
+
+.contenedor-logo {
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenedor-logo img {
+    max-width: 600px; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+.menu-desplegable {
+    position:absolute;
+    display: inline-block;
+  }
+  
+  .boton-menu {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .boton-menu:hover {
+    background-color: #3e8e41;
+  }
+  
+  .opciones-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: none;
+  }
+  
+  .opcion-menu {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .opcion-menu:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .menu-desplegable:hover .opciones-menu {
+    display: block;
+  }

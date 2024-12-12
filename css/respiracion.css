@@ -1,0 +1,55 @@
+body {
+    background-color: #f0f4f8; /* Color de fondo suave */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    color: cadetblue;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+button {
+    background-color: #369e7b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2dc0ac; /* Color de fondo al pasar el ratón */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: #369e7b;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.link-button:hover {
+    color: #2dc0ac; /* Color al pasar el ratón */
+}
+
+#timer {
+    font-size: 24px; /* Tamaño de fuente para el temporizador */
+    color: #369e7b; /* Color del texto */
+    margin-top: 20px;
+    text-align: center;
+}

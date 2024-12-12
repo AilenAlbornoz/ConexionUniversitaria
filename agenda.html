@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/agenda.css" rel="stylesheet" type="text/css">
+        <link href="css/menu.css" rel="stylesheet"/>
+        <title> Agenda 2025🧠 </title>
+    </head>
+    <body>
+        <!-- Menú desplegable -->
+        <div class="menu-desplegable">
+            <button class="boton-menu">
+            <i class="fas fa-cog" aria-hidden="true"></i>
+            </button>
+            <ul class="opciones-menu">
+            <li>
+                <a href="mi-perfil.html" class="opcion-menu">Editar perfil</a>
+            </li>
+            <li>
+                <a href="#" class="opcion-menu">Poner modo anónimo</a>
+            </li>
+            <li>
+                <a href="#" class="opcion-menu">Cerrar sesión</a>
+            </li>
+            </ul>
+        </div>
+        <section id="descripcion" class="w-100 w-md-75 w-lg-50">
+            <div class="form-group mb-3 text-center" style="text-align: center;">
+                <img src="img/ConexionUniv.jpeg" alt="Logo Conexion Universitaria" class="img-fluid" style="max-width: 100%; height: auto;">
+            </div>
+            <h1>Agenda 2025🧠</h1> 
+                <div class="section_pic-container">
+                    <img src="img/cenur.jpg" id="sede" alt="sede" class="sede"/>
+                </div>
+        </section>
+
+        <section id="descripcion" class="carousel" style="text-align: center;">
+            <button id="infoButton">Propuesta</button>
+            <div id="info" style="display: none;">
+                <p class="carousel-item">Con el objetivo de reflexionar de manera crítica y constructiva sobre la carrera de Psicología en el CENUR LN, la propuesta de la Agenda 2025 busca abrir un espacio para reconocer tanto las fortalezas como las áreas de mejora que afectan a nuestra formación académica. Este documento, impulsado por los propios estudiantes, está pensado como un ejercicio colectivo que permita visibilizar las vivencias, necesidades y propuestas que surgen de quienes somos el corazón de esta carrera: los estudiantes.</p>
+                <p class="carousel-item" style="display: none;">En particular, se hará énfasis en la Sede Paysandú, un núcleo fundamental de nuestra formación, con el fin de identificar de forma concreta aquellos aspectos que impactan directamente en nuestra experiencia universitaria. ¿Qué hacemos bien? ¿En qué podemos mejorar? ¿Cómo podemos avanzar juntos hacia una educación más inclusiva, accesible y de calidad? Estas son algunas de las preguntas que guiarán el proceso de análisis y propuesta.</p>
+                <p class="carousel-item" style="display: none;">Además, este espacio no solo será una oportunidad para reflexionar sobre la estructura académica, sino también un momento para escuchar a los estudiantes: sus historias, sus desafíos y sus logros. Por ello, se incluirá un apartado dedicado a que los propios estudiantes puedan compartir su proceso formativo, destacando los aspectos que les han sido más significativos, los obstáculos que han tenido que sortear y las herramientas que consideran más útiles para su desarrollo profesional.</p>
+                <p class="carousel-item" style="display: none;">La Agenda 2025 será, por lo tanto, una plataforma de participación y diálogo que busca construir un futuro de la carrera de Psicología más ajustado a las necesidades de quienes la vivimos día a día. Es una propuesta de mejora que nace desde la comunidad estudiantil, pensada para construir, juntos, una carrera más fuerte y conectada con la realidad de todos sus miembros.</p>
+            </div>
+            <div class="carousel-controls">
+                <button id="prevButton">Anterior</button>
+                <button id="nextButton">Siguiente</button>
+            </div>
+        </section>
+
+        <div id="notas">
+            <select id="notaTipo">
+                <option value="fortaleza">Fortalezas</option>
+                <option value="debilidad">Debilidades</option>
+                <option value="experiencia">Experiencias</option>
+                <option value="propuesta">Propuestas</option>
+            </select>
+            <textarea id="fortaleza" placeholder="Escribe aquí..." rows="4" cols="50"></textarea>     
+            <hr>
+            <button id="addNoteButton">Agregar Nota</button>
+            
+        </div>
+        
+        <div id="notasContainer"></div>
+
+        
+
+        <nav>
+            <ul class="nav-links">
+                <a href="index.html" class="link-button">Volver al Inicio </a>
+            </ul>
+        </nav>
+
+        <script src="js/agenda.js"></script>
+        <script src="js/menu.js"></script>
+    </body>
+</html>  
